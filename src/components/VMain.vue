@@ -8,7 +8,7 @@
             <v-btn
                 color="primary"
                 outlined
-                @click="$router.push('/game')"
+                @click="startGame"
             >Game start</v-btn>
         </v-layout>
     </v-container>
@@ -17,7 +17,10 @@
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
 
+@Component
 export default class VMain extends Vue {
-
+    startGame() {
+        this.$router.push('/game');
+    }
 }
 </script>

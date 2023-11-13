@@ -1,7 +1,7 @@
 <template>
-    <v-container>
+    <div>
         <VBoard/>
-    </v-container>
+    </div>
 </template>
 
 <script lang="ts">

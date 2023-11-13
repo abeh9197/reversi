@@ -13,7 +13,7 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import VCell from '@/components/reversi/VCell.vue'
+import VCell from '@/components/reversi/VCell.vue';
 
 @Component({
     components: {
